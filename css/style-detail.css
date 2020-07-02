@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,900&display=swap&subset=korean');*/
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	display: block;
+}
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.logo{
+	font-family: 'Bad Script', cursive;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute; top:0; left: 20;
+	float: left;
+	color: black;
+}
+
+.header img{
+	margin-top: 0px;
+	overflow: hidden;
+	padding-top: 36px;
+	padding-left: 110px;
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 56px;
+	align-content: center;
+}
+
+.header{
+	margin-bottom: 140px;
+}
+
+.contents{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.main_img img{
+	/*width: 35vw;
+	height: 35vw;*/
+	width: 520px;
+	height: 520px;
+}
+
+.main_img{
+	float: left;
+}
+
+.text_container{
+	float: left;
+	width: 800px;
+	margin-left: 40px;
+}
+
+.label{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.title{
+	font-size: 56px;
+	letter-spacing: -0.05em;
+	margin-bottom: 100px;
+}
+
+.type{
+	font-size: 10px;
+	text-align: right;
+	position: relative;
+	top: -160px;
+	opacity: 0.7;
+}
+
+.if{
+	font-size: 40px;
+	font-weight: 100;
+	line-height: 48px;
+	letter-spacing: -0.1em;
+}
+
+.desc{
+	margin-top: 40px;
+	width: 600px;
+	text-align: justify;
+	margin-bottom: 60px;
+	font-weight: 100;
+}
+
+.sub_img img{
+	width: 100%;
+}
+
+.button{
+	position: fixed;
+	top: 600px;
+	right: 80px;
+	width: 48px;
+	height: 48px;
+	background-color: black;
+	background-image: url("https://blogfiles.pstatic.net/MjAyMDA2MzBfNjkg/MDAxNTkzNTAyNjcyMDA3.pKBP2hE5ONhbspvo1X5Kjac1v49P7ZDU5xbb2DH-3qEg.weoaU7-OTeb4TZEppMCK1yqasdq1hYo4Et2KxShZ9Mgg.PNG.codnjstkfkd8/home_white_s.png");
+	background-size: 40px 40px;
+    background-position: center;
+}
+
+.button:hover{
+	width: 48px;
+	height: 48px;
+	background-color: white;
+	border: 1px solid black;
+	background-image: url("https://blogfiles.pstatic.net/MjAyMDA2MzBfMTgw/MDAxNTkzNTAyNjcyMDA1.Hv4U9iv0tQiV-8XPdwWoVOxse3xaJ1OTcgxhLUfuDEgg.S64ljnCeKiaSP_UXvxJ4sLaru7iVp22iVSVZsFglNoUg.PNG.codnjstkfkd8/home_black_s.png");
+	background-size: 40px 40px;
+    background-position: center;
+    position: fixed;
+}
